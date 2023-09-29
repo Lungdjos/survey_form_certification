@@ -84,9 +84,7 @@ p {
     text-align: center;
 }
 
-p {
-    font-style: italic;
-}
+p {}
 
 form {
     margin: 0 auto;

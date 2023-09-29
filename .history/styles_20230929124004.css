@@ -84,10 +84,6 @@ p {
     text-align: center;
 }
 
-p {
-    font-style: italic;
-}
-
 form {
     margin: 0 auto;
     max-width: 500px;
