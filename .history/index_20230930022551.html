@@ -23,23 +23,16 @@
                     <option value="1"  name="news">Student</option>
                     <option value="2" name="youtube" >Full Time Job</option>
                     <option value="3" name="forum" >Full Time Learner</option>
-                    <option value="4" name="other" >Prefer not to say</option>
+                    <option value="4" name="other" >Other</option>
                     <option value="5" name="other" >Other</option>
                 </select>
-            </label>
-            <label for="rec">
-                Would you recommend freeCodeCamp to a friend?
-                <div class="radio-label">
-                    <input  type="radio" name="recommendation" id="rec" checked> Definitely
-                    <input  type="radio" name="recommendation" id="rec">Maybe
-                    <input  type="radio" name="recommendation" id="rec">Not Sure
-                </div>
-                    
             </label>
         </fieldset>
         <fieldset>
             <legend> <small>Account Type</small></legend>
-
+            <label for="personal-account"> <input class="inline" type="radio" name="account-type" id="personal-account"> Personal Account</label>
+            <label for="business-account"> <input class="inline" type="radio" name="account-type" id="business-account"> Business Account</label>
+            <label for="terms-and-conditions"> <input class="inline" type="checkbox" name="ts-and-cs" id="terms-and-conditions" required> <small>I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> </small> </label>
         </fieldset>
         <fieldset>
             <legend> <small>Other Details</small></legend>

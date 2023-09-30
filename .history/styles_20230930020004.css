@@ -31,8 +31,12 @@ a:active {
     color: #0a0a23;
 }
 
+form {
+    margin: 0px 30px 0px 30px;
+}
+
 fieldset {
-    margin: 15px;
+    margin: 15px 0px 15px 0px;
     border-radius: 10px;
     border: 3px solid #3b3b4f;
     padding: 1rem;
@@ -57,55 +61,15 @@ select {
 
 input,
 textarea {
-    background-color: #fff;
+    background-color: #0a0a23;
     border: 1px solid #0a0a23;
-    color: #0a0a23;
-    ;
+    color: #fff;
 }
 
-
-/* input {}
-
-.inline label {
-    display: inline;
-    margin: 0 3em 0 0;
+.inline {
+    width: unset;
+    margin: 0 1em 0 0;
     vertical-align: middle;
-    justify-content: left;
-}
-
-
-/* Style the radio buttons to make them visually aligned with the labels *
-
-input[type="radio"] {
-    vertical-align: middle;
-    /* Align radio buttons vertically with the text 
-    margin-right: 5px;
-    /* Add some spacing between the radio button and text 
-
-
-}
-
-/* Add some margin between each radio button and text 
-
-label input[type="radio"]+label {
-    margin-right: 15px;
-}
-
-*/
-
-
-/* Use flexbox to align items vertically */
-
-.radio-label {
-    display: inline-flex;
-    align-items: center;
-}
-
-
-/* Style the radio buttons */
-
-input[type="radio"] {
-    margin: 3em 1em 0 0;
 }
 
 legend {
@@ -124,7 +88,6 @@ p {
 }
 
 form {
-    /* margin: 0px 30px 0px 30px; */
     margin: 0 auto;
     max-width: 500px;
     min-width: 300px;
@@ -142,12 +105,11 @@ form {
 
 input[name="submit"] {
     display: block;
-    width: 95%;
+    width: 60%;
     margin: 1em auto;
     height: 2em;
     font-size: 1.5rem;
-    background-color: green;
-    color: #fff;
+    background-color: #3b3b4f;
     border-color: white;
     min-width: 1em;
 }

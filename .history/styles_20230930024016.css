@@ -31,6 +31,8 @@ a:active {
     color: #0a0a23;
 }
 
+form {}
+
 fieldset {
     margin: 15px;
     border-radius: 10px;
@@ -63,49 +65,13 @@ textarea {
     ;
 }
 
+input {}
 
-/* input {}
-
-.inline label {
-    display: inline;
-    margin: 0 3em 0 0;
+.inline {
+    display: block;
+    width: unset;
+    margin: 0 1em 0 0;
     vertical-align: middle;
-    justify-content: left;
-}
-
-
-/* Style the radio buttons to make them visually aligned with the labels *
-
-input[type="radio"] {
-    vertical-align: middle;
-    /* Align radio buttons vertically with the text 
-    margin-right: 5px;
-    /* Add some spacing between the radio button and text 
-
-
-}
-
-/* Add some margin between each radio button and text 
-
-label input[type="radio"]+label {
-    margin-right: 15px;
-}
-
-*/
-
-
-/* Use flexbox to align items vertically */
-
-.radio-label {
-    display: inline-flex;
-    align-items: center;
-}
-
-
-/* Style the radio buttons */
-
-input[type="radio"] {
-    margin: 3em 1em 0 0;
 }
 
 legend {
