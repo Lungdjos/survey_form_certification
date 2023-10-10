@@ -21,6 +21,9 @@ body {
     margin: 0;
 }
 
+
+/* mobile friendly alternative to using background-attachment: fixed */
+
 body::before {
     content: '';
     position: fixed;
@@ -75,6 +78,18 @@ button {
 .container {
     width: 100%;
     margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
 }
 
 .header {
@@ -156,17 +171,5 @@ form {
 @media (min-width: 480px) {
     form {
         padding: 2.5rem;
-    }
-}
-
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
     }
 }
