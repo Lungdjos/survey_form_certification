@@ -86,7 +86,8 @@ button:hover {
 button {
     display: block;
     width: 100%;
-    margin: auto;
+    margin: 1em auto;
+    height: 2em;
     font-size: 1.5rem;
     background-color: green;
     color: #fff;
@@ -97,10 +98,9 @@ button {
 
 input[type="text"],
 input[type="email"],
-input[type="number"],
-select,
-textarea {
+input[type="number"] {
     width: 100%;
-    margin: auto;
+    margin: 1em auto;
     height: 2em;
+    /* Add any other common styles here */
 }

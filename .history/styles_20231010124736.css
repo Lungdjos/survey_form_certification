@@ -60,7 +60,7 @@ textarea {
     text-align: center;
 }
 
-#description {
+p {
     font-style: italic;
 }
 
@@ -71,8 +71,7 @@ textarea {
     min-width: 300px;
     width: 60vw;
     background-color: #1b1b32;
-    border-radius: 5px;
-    padding: 40px;
+    borde
 }
 
 button:hover {
@@ -85,8 +84,9 @@ button:hover {
 
 button {
     display: block;
-    width: 100%;
-    margin: auto;
+    width: 95%;
+    margin: 1em auto;
+    height: 2em;
     font-size: 1.5rem;
     background-color: green;
     color: #fff;
@@ -95,12 +95,7 @@ button {
     border-radius: 3px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="number"],
-select,
-textarea {
-    width: 100%;
-    margin: auto;
-    height: 2em;
+input[type="file"] {
+    min-height: 2em;
+    padding: 1px 2px;
 }

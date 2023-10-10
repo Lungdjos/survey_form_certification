@@ -86,7 +86,7 @@ button:hover {
 button {
     display: block;
     width: 100%;
-    margin: auto;
+    margin: a2pxuto;
     font-size: 1.5rem;
     background-color: green;
     color: #fff;
